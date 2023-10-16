@@ -1,27 +1,32 @@
 <div class="current-date-weather-card">
-    <div class="current-date-time-info">16 Oct, 2023 09:45</div>
+    <div class="current-date-time-info">{{weatherService.currentWeather?.timeStamp}}</div>
     <div class="current-date-weather-info">
         <div class="weather-img-and-text">
-            <img src="http://openweathermap.org/img/wn/02d@2x.png" alt="weather image">
-            <p>Cloudy 24 - 32°C</p>
+            <img src="{{getIcon()}}" alt="weather image">
+            <p>Cloudy {{weatherService.currentWeather?.tempMin}} - {{weatherService.currentWeather?.tempMax}}°C</p>
         </div>
         <div class="weather-value-and-text">
-            <h2>27°C</h2>
+            <h2>{{weatherService.currentWeather?.temperature}}°C</h2>
             <p>Temperature</p>
         </div>
         <div class="weather-value-and-text">
-            <h2>86%</h2>
+            <h2>{{weatherService.currentWeather?.humidity}}%</h2>
             <p>Humidity</p>
         </div>
         <div class="weather-value-and-text">
-            <h2>14 km/h</h2>
+            <h2>{{weatherService.currentWeather?.windSpeed}} km/hr</h2>
             <p>Wind Speed</p>
         </div>
     </div>
+
     <div class="current-date-hourly-info-container">
-        <ng-container *ngFor="let i of [1,1,1,1,1,1,1,1]">
-            <app-hourly-data-card/>
+        <ng-container *ngFor="let current of weatherService.timeWiseWeatherList">
+            <div (click)="weatherService.reInitializeCurrentWeather(current.id)">
+                <app-hourly-data-card [currentWeather]="current.currentWeather" />
+            </div>
         </ng-container>
-              
+    </div>
+    <div class="weather-tip-text">
+        <p><img src="assets/lightbulb.png" alt="Message"> {{weatherService.currentWeather?.desc}} - {{weatherService.currentWeather?.message}}</p>
     </div>
 </div>

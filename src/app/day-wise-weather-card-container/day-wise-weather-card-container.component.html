@@ -1,0 +1,7 @@
+<div class="weekly-weather-forecast-container">
+  <ng-container *ngFor="let date of weatherService.dateMap.keys()">
+      <div (click)="weatherService.reInitializeDayWeather(date)">
+        <app-day-wise-weather-card [dateWeatherObj]="weatherService.getDayWiseCard(date)"/>
+      </div>
+  </ng-container>
+</div>

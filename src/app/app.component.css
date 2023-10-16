@@ -27,7 +27,7 @@
     display: flex;
     background-color: #2E249F;
     border-radius: 20px;
-    padding: 5px 10px;
+    padding: 5px 5px;
 }
 .search-input input {
     border: none;
@@ -50,6 +50,12 @@
 .search-input{
     flex: 4; 
 }
+
+.search-message {
+    color: red;
+    font-size: 12px;
+    font-weight: bolder;
+}
 .nav-bar-location-info{
     display: flex;
 }
@@ -71,12 +77,4 @@
 }
 .current-date-weather-container{
     width: 100%;
-}
-
-.weekly-weather-forecast-container{
-    display: flex;
-    flex: 1;
-    align-items: center;
-    justify-content: start;
-    gap: 30px;
 }

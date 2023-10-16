@@ -31,6 +31,16 @@
     margin-top: -10px;
     color: #EDEBF6; 
 }
+.weather-tip-text p {
+    font-size: 10px;
+    color: #f3c22e; 
+    font-style: italic;
+    font-weight: bolder ;
+}
+.weather-tip-text img{
+    width: 20px;
+    height: 20px;
+}
 .weather-value-and-text{
     display: flex;
     flex-direction: column;

@@ -1,5 +1,5 @@
 <div class="hourly-data-card">
-    <p>10.00</p>
-    <img src="http://openweathermap.org/img/wn/02d@2x.png" alt="weather icon">
-    <p>26°</p>
+    <p>{{getTime(currentWeather.time)}}</p>
+    <img src="{{getIcon(currentWeather.icon)}}" alt="weather icon">
+    <p>{{currentWeather.temperature}}°C</p>
 </div>
