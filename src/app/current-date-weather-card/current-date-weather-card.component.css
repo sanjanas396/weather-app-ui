@@ -1,0 +1,65 @@
+.current-date-weather-card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #2E249F;
+    border-radius: 20px;
+    gap: 10px;
+}
+
+.current-date-time-info{
+    font-size: 12px;
+    text-align: left;
+}
+.current-date-weather-info{
+    display: flex;
+    justify-content: space-between;
+}
+.weather-img-and-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.weather-img-and-text img{
+    width: 70px;
+    height: 70px;
+}
+.weather-img-and-text p {
+    margin: 0;
+    font-size: 9px;
+    margin-top: -10px;
+    color: #EDEBF6; 
+}
+.weather-tip-text p {
+    font-size: 10px;
+    color: #f3c22e; 
+    font-style: italic;
+    font-weight: bolder ;
+}
+.weather-tip-text img{
+    width: 20px;
+    height: 20px;
+}
+.weather-value-and-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.weather-value-and-text h2{
+    font-size: 20px;
+    margin: 15px 0 0;
+}
+.weather-value-and-text p{
+    margin: 0;
+    font-size: 10px;
+    color: #EDEBF6;
+}
+
+.current-date-hourly-info-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
