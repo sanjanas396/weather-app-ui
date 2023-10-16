@@ -1,0 +1,39 @@
+.weekly-weather-forecast-card{
+    display: flex;
+    flex-direction: column;
+    background-color: #17115F;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px 10px 10px 15px;
+}
+.weather-date-and-img{
+    display: flex;
+    color: #E1E0E8;
+}
+.weather-date-and-img img{
+    height: 80px;
+    width: 80px;
+    margin-top: -20px;
+}
+.weather-date-and-img h3{
+    font-size: 16px;
+    font-weight: normal;
+}
+.weather-date-and-img p{
+    font-size: 10px;
+    font-weight: normal;
+}
+.weather-temp-and-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.weather-temp-and-text h2{
+    font-size: 22px;
+    font-weight: 400;
+}
+.weather-temp-and-text p{
+    font-size: 10px;
+}
