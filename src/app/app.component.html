@@ -1,25 +1,27 @@
 <div class="app-container">
-  <div class="weather-container">
+  <div *ngIf="!weatherService.weatherData">
+    <div class="loader"></div>
+    <span>Loading data....</span>
+  </div>
+  <div *ngIf="weatherService.weatherData" class="weather-container">
     <div class="weather-app-nav-bar">
       <div class="nav-bar-location-info">
-        <div class="location-icon"><fa-icon class="fa-sm" [icon]="faLocationDot" [style]="{color: '#EDEBF6'}"></fa-icon></div>
-        <h3>{{weatherService.city.name}}, {{weatherService.city.country}}</h3>
+        <img class="location-icon" src="/assets/pin.png">
+        <p>{{weatherService.city.name}}, {{weatherService.city.country}}</p>
       </div>
       <div class="search-bar">
-        <div class="search-icon"><fa-icon class="fa-sm" [icon]="faMagnifyingGlass" [style]="{color: '#A2A2AB'}"></fa-icon></div>
-        <div class="search-input"><input (keyup.enter)="search()" [(ngModel)]="searchText" type="text" placeholder="Search City"></div>
-      </div>
-      <div class="search-message">
-        <p>{{weatherService.errorMessage}}</p>
+        <img class="search-icon" src="/assets/search_icon.png">
+        <div class="search-input"><input (keyup.enter)="search()" [(ngModel)]="searchText" type="text"
+            placeholder="Search City"></div>
       </div>
     </div>
     <div class="weather-app-main-content">
       <div class="current-date-weather-container">
-        <app-current-date-weather-card [timeWiseWeatherList]="weatherService.timeWiseWeatherList"/>
+        <app-current-date-weather-card [timeWiseWeatherList]="weatherService.timeWiseWeatherList" />
       </div>
-    <div>
-      <app-day-wise-weather-card-container [dateMap]="weatherService.dateMap"/>
+      <div class="day-wise-weather-card-container">
+        <app-day-wise-weather-card-container [dateMap]="weatherService.dateMap" />
+      </div>
     </div>
   </div>
-</div>
 </div>

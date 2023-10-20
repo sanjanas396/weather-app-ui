@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faMagnifyingGlass, faLocation, faLocationCrosshairs } from '@fortawesome/free-solid-svg-icons';
 import { WeatherService } from './weather.service';
-import { HttpClient } from '@angular/common/http';
 import { TimeWiseWeatherList } from './models/weather-data.module';
 
 @Component({
@@ -15,15 +13,7 @@ export class AppComponent implements OnInit{
   searchText = ''
   dateMap? : Map<String, TimeWiseWeatherList[]>; 
 
-  faMagnifyingGlass:any = faMagnifyingGlass;
-  faLocation:any = faLocation;
-  faLocationDot:any = faLocationCrosshairs
-
-  constructor(
-    private httpClient : HttpClient,
-    public weatherService : WeatherService) {
-
-  }
+  constructor(public weatherService : WeatherService) {}
 
   ngOnInit(): void {
     this.initData("");

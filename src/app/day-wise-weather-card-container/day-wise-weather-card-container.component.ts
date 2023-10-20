@@ -10,10 +10,9 @@ import { TimeWiseWeatherList } from '../models/weather-data.module';
 export class DayWiseWeatherCardComponent {
 
   @Input()
-  dateMap? : Map<String, TimeWiseWeatherList[]>; 
+  dateMap?: Map<String, TimeWiseWeatherList[]>;
 
   constructor(
-    public weatherService : WeatherService) {
+    public weatherService: WeatherService) {
   }
-
 }

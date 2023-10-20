@@ -1,7 +1,7 @@
-.weekly-weather-forecast-container{
+.day-wise-weather-card-container {
     display: flex;
     flex: 1;
     align-items: center;
-    justify-content: start;
-    gap: 30px;
+    justify-content: space-evenly;
+    gap: 10px;
 }
