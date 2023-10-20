@@ -39,14 +39,12 @@ export class WeatherService {
     private toastService: ToastrService) { }
 
   initWeatherData(cityName: string) {
-    console.log("before " + cityName)
     if (cityName == undefined || cityName == "") {
       cityName = this.getClientCity()
       if (cityName == undefined || cityName == "") {
         cityName = 'bengaluru'
       }
     }
-    console.log("after " + cityName)
     this.httpClient.get<WeatherData>(this.url, {
       params: new HttpParams()
         .set('city', cityName)

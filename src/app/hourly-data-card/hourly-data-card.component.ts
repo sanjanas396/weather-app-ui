@@ -17,7 +17,6 @@ export class HourlyDataCardComponent {
   constructor(public weatherService: WeatherService) {}
 
   getTime(time: string): string {
-    console.log(time.slice(0, 5))
     return time.slice(0, 5)
   }
 
