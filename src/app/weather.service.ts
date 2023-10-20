@@ -1,8 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http'
 import { City, CurrentWeather, DaywiseWeatherList, TimeWiseWeatherList, WeatherData } from './models/weather-data.module';
-import { Observable } from 'rxjs/internal/Observable';
-
+import { ToastrService } from 'ngx-toastr';
 @Injectable({
   providedIn: 'root'
 })
@@ -15,8 +14,7 @@ export class WeatherService {
   dateMap = new Map<string, TimeWiseWeatherList[]>();
   city!: City;
   currentWeather?: CurrentWeather
-  errorMessage : any
-
+  errorMessage: any
   defaultCurrentWeather: TimeWiseWeatherList =
     {
       "currentWeather": {
@@ -36,22 +34,23 @@ export class WeatherService {
     }
 
 
-  constructor(private httpClient: HttpClient) { }
+  constructor(
+    private httpClient: HttpClient,
+    private toastService: ToastrService) { }
 
   initWeatherData(cityName: string) {
-    console.log("before "+cityName)
-    if(cityName == undefined || cityName == "") {
+    console.log("before " + cityName)
+    if (cityName == undefined || cityName == "") {
       cityName = this.getClientCity()
-      if(cityName == undefined || cityName == "") {
+      if (cityName == undefined || cityName == "") {
         cityName = 'bengaluru'
       }
     }
-    console.log("after "+cityName)
+    console.log("after " + cityName)
     this.httpClient.get<WeatherData>(this.url, {
       params: new HttpParams()
         .set('city', cityName)
-    }).subscribe(data => {
-      console.log(data);
+    }).subscribe((data: any) => {
       this.weatherData = data;
       this.timeWiseWeatherList = this.weatherData?.timeWiseWeatherList;
       this.dayWiseWeatherList = this.weatherData?.daywiseWeatherList;
@@ -60,15 +59,21 @@ export class WeatherService {
       this.currentWeather = this.getCurrentWeather()
       this.errorMessage = ""
       return this.weatherData;
-    }, error => {
-      if(navigator.onLine) {
-        console.log("Invalid city name ", cityName);
-        this.errorMessage = "Invalid city name :("
+    }, (error: any) => {
+      if (navigator.onLine) {
+        console.log("Invalid city name ", cityName, error);
+        this.errorMessage = "Invalid city name"
+        this.showSuccess()
       } else {
-        console.log("You are offline ", cityName);
-        this.errorMessage = "You are offline"
+        console.log("You are offline ", cityName, error);
+        this.errorMessage = "Oops, you are offline!"
+        this.showSuccess()
       }
     })
+  }
+
+  showSuccess() {
+    this.toastService.error(this.errorMessage);
   }
 
   getClientCity() {
@@ -139,10 +144,10 @@ export class WeatherService {
     this.currentWeather = this.getCurrentWeather()
   }
 
-  
-  getDayWiseCard(date : string)  {
-    const list  =  this.dateMap.get(date);
-    return (list && list.length > 0)? list[0] : undefined;
+
+  getDayWiseCard(date: string) {
+    const list = this.dateMap.get(date);
+    return (list && list.length > 0) ? list[0] : undefined;
   }
 
 }

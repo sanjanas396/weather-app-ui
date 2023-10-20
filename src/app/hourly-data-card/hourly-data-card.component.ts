@@ -8,28 +8,20 @@ import { TimeWiseWeatherList } from '../models/weather-data.module';
   styleUrls: ['./hourly-data-card.component.css']
 })
 
-export class HourlyDataCardComponent implements OnInit{
+export class HourlyDataCardComponent {
 
-  @Input() currentWeather:any;
-  
+  @Input() currentWeather: any;
+
   timeWiseWeatherList?: TimeWiseWeatherList[]
 
+  constructor(public weatherService: WeatherService) {}
 
-  constructor(public weatherService : WeatherService) {
-
+  getTime(time: string): string {
+    console.log(time.slice(0, 5))
+    return time.slice(0, 5)
   }
 
-  ngOnInit(): void {
-
+  getIcon(iconId: string): string {
+    return "assets/weather_icons/" + iconId + ".png"
   }
-
-  getTime(time : string): string {
-    console.log( time.slice(0,5))
-    return time.slice(0,5)
-  }
-
-  getIcon(iconId : string) : string {
-    return "assets/weather_icons/"+iconId+".png"
-  }
-
 }

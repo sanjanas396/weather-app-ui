@@ -31,7 +31,7 @@
   "dataGroups": [
     {
       "name": "api-call",
-      "urls": ["http://localhost:8080/weather?city=bengaluru"],
+      "urls": ["http://localhost:8080/weather?city=*"],
       "cacheConfig": {
         "maxAge": "10m",
         "maxSize": 30,

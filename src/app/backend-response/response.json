@@ -1,0 +1,747 @@
+{
+    "timeWiseWeatherList": [
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-20 18:00:00",
+                "temperature": 24,
+                "humidity": 74,
+                "tempMin": 22.3,
+                "tempMax": 24,
+                "windSpeed": 3.8,
+                "icon": "10n",
+                "desc": "light rain",
+                "message": "Carry umbrella",
+                "clouds": 60,
+                "time": "18:00:00"
+            },
+            "id": "time_661199193"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-20 21:00:00",
+                "temperature": 21.6,
+                "humidity": 82,
+                "tempMin": 19.9,
+                "tempMax": 21.6,
+                "windSpeed": 3.2,
+                "icon": "10n",
+                "desc": "light rain",
+                "message": "Carry umbrella",
+                "clouds": 66,
+                "time": "21:00:00"
+            },
+            "id": "time_-802502595"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-21 00:00:00",
+                "temperature": 19.1,
+                "humidity": 86,
+                "tempMin": 19.1,
+                "tempMax": 19.1,
+                "windSpeed": 2.6,
+                "icon": "04n",
+                "desc": "broken clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 82,
+                "time": "00:00:00"
+            },
+            "id": "time_-908405799"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-21 03:00:00",
+                "temperature": 23.1,
+                "humidity": 65,
+                "tempMin": 23.1,
+                "tempMax": 23.1,
+                "windSpeed": 3,
+                "icon": "04d",
+                "desc": "overcast clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 88,
+                "time": "03:00:00"
+            },
+            "id": "time_-414978055"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-21 06:00:00",
+                "temperature": 27.5,
+                "humidity": 46,
+                "tempMin": 27.5,
+                "tempMax": 27.5,
+                "windSpeed": 4.1,
+                "icon": "04d",
+                "desc": "broken clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 67,
+                "time": "06:00:00"
+            },
+            "id": "time_1029777438"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-21 09:00:00",
+                "temperature": 28.7,
+                "humidity": 40,
+                "tempMin": 28.7,
+                "tempMax": 28.7,
+                "windSpeed": 4.3,
+                "icon": "02d",
+                "desc": "few clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 13,
+                "time": "09:00:00"
+            },
+            "id": "time_689337501"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-21 12:00:00",
+                "temperature": 25.6,
+                "humidity": 54,
+                "tempMin": 25.6,
+                "tempMax": 25.6,
+                "windSpeed": 3,
+                "icon": "03d",
+                "desc": "scattered clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 34,
+                "time": "12:00:00"
+            },
+            "id": "time_651400857"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-21 15:00:00",
+                "temperature": 23.4,
+                "humidity": 62,
+                "tempMin": 23.4,
+                "tempMax": 23.4,
+                "windSpeed": 4.1,
+                "icon": "04n",
+                "desc": "overcast clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 86,
+                "time": "15:00:00"
+            },
+            "id": "time_-578942386"
+        }
+    ],
+    "daywiseWeatherList": [
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-21 00:00:00",
+                "temperature": 19.1,
+                "humidity": 86,
+                "tempMin": 19.1,
+                "tempMax": 19.1,
+                "windSpeed": 2.6,
+                "icon": "04n",
+                "desc": "broken clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 82,
+                "time": "00:00:00"
+            },
+            "id": "time_-1442304393"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-21 03:00:00",
+                "temperature": 23.1,
+                "humidity": 65,
+                "tempMin": 23.1,
+                "tempMax": 23.1,
+                "windSpeed": 3,
+                "icon": "04d",
+                "desc": "overcast clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 88,
+                "time": "03:00:00"
+            },
+            "id": "time_-1843957672"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-21 06:00:00",
+                "temperature": 27.5,
+                "humidity": 46,
+                "tempMin": 27.5,
+                "tempMax": 27.5,
+                "windSpeed": 4.1,
+                "icon": "04d",
+                "desc": "broken clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 67,
+                "time": "06:00:00"
+            },
+            "id": "time_-865817664"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-21 09:00:00",
+                "temperature": 28.7,
+                "humidity": 40,
+                "tempMin": 28.7,
+                "tempMax": 28.7,
+                "windSpeed": 4.3,
+                "icon": "02d",
+                "desc": "few clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 13,
+                "time": "09:00:00"
+            },
+            "id": "time_1249617436"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-21 12:00:00",
+                "temperature": 25.6,
+                "humidity": 54,
+                "tempMin": 25.6,
+                "tempMax": 25.6,
+                "windSpeed": 3,
+                "icon": "03d",
+                "desc": "scattered clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 34,
+                "time": "12:00:00"
+            },
+            "id": "time_-1913042288"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-21 15:00:00",
+                "temperature": 23.4,
+                "humidity": 62,
+                "tempMin": 23.4,
+                "tempMax": 23.4,
+                "windSpeed": 4.1,
+                "icon": "04n",
+                "desc": "overcast clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 86,
+                "time": "15:00:00"
+            },
+            "id": "time_-1398745384"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-21 18:00:00",
+                "temperature": 22.5,
+                "humidity": 70,
+                "tempMin": 22.5,
+                "tempMax": 22.5,
+                "windSpeed": 3.1,
+                "icon": "04n",
+                "desc": "overcast clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 93,
+                "time": "18:00:00"
+            },
+            "id": "time_-1890438713"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-21 21:00:00",
+                "temperature": 20.2,
+                "humidity": 84,
+                "tempMin": 20.2,
+                "tempMax": 20.2,
+                "windSpeed": 2.8,
+                "icon": "10n",
+                "desc": "light rain",
+                "message": "Carry umbrella",
+                "clouds": 69,
+                "time": "21:00:00"
+            },
+            "id": "time_1907580819"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-22 00:00:00",
+                "temperature": 19.3,
+                "humidity": 88,
+                "tempMin": 19.3,
+                "tempMax": 19.3,
+                "windSpeed": 2.9,
+                "icon": "10n",
+                "desc": "light rain",
+                "message": "Carry umbrella",
+                "clouds": 80,
+                "time": "00:00:00"
+            },
+            "id": "time_1659461108"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-22 03:00:00",
+                "temperature": 23.2,
+                "humidity": 70,
+                "tempMin": 23.2,
+                "tempMax": 23.2,
+                "windSpeed": 2.1,
+                "icon": "04d",
+                "desc": "overcast clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 96,
+                "time": "03:00:00"
+            },
+            "id": "time_-1556503542"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-22 06:00:00",
+                "temperature": 27.2,
+                "humidity": 51,
+                "tempMin": 27.2,
+                "tempMax": 27.2,
+                "windSpeed": 3.2,
+                "icon": "10d",
+                "desc": "light rain",
+                "message": "Carry umbrella",
+                "clouds": 69,
+                "time": "06:00:00"
+            },
+            "id": "time_-1828446289"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-22 09:00:00",
+                "temperature": 26.1,
+                "humidity": 55,
+                "tempMin": 26.1,
+                "tempMax": 26.1,
+                "windSpeed": 2.8,
+                "icon": "04d",
+                "desc": "broken clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 84,
+                "time": "09:00:00"
+            },
+            "id": "time_132974320"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-22 12:00:00",
+                "temperature": 24.8,
+                "humidity": 58,
+                "tempMin": 24.8,
+                "tempMax": 24.8,
+                "windSpeed": 2.3,
+                "icon": "04d",
+                "desc": "overcast clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 92,
+                "time": "12:00:00"
+            },
+            "id": "time_-1091925298"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-22 15:00:00",
+                "temperature": 23.5,
+                "humidity": 58,
+                "tempMin": 23.5,
+                "tempMax": 23.5,
+                "windSpeed": 2.5,
+                "icon": "04n",
+                "desc": "overcast clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 100,
+                "time": "15:00:00"
+            },
+            "id": "time_-2111478086"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-22 18:00:00",
+                "temperature": 21.3,
+                "humidity": 71,
+                "tempMin": 21.3,
+                "tempMax": 21.3,
+                "windSpeed": 1.9,
+                "icon": "04n",
+                "desc": "overcast clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 100,
+                "time": "18:00:00"
+            },
+            "id": "time_-1723508510"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-22 21:00:00",
+                "temperature": 20.5,
+                "humidity": 78,
+                "tempMin": 20.5,
+                "tempMax": 20.5,
+                "windSpeed": 2.2,
+                "icon": "10n",
+                "desc": "light rain",
+                "message": "Carry umbrella",
+                "clouds": 100,
+                "time": "21:00:00"
+            },
+            "id": "time_-1022141484"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-23 00:00:00",
+                "temperature": 19.7,
+                "humidity": 83,
+                "tempMin": 19.7,
+                "tempMax": 19.7,
+                "windSpeed": 2.3,
+                "icon": "10n",
+                "desc": "light rain",
+                "message": "Carry umbrella",
+                "clouds": 100,
+                "time": "00:00:00"
+            },
+            "id": "time_1545821708"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-23 03:00:00",
+                "temperature": 22.8,
+                "humidity": 68,
+                "tempMin": 22.8,
+                "tempMax": 22.8,
+                "windSpeed": 2,
+                "icon": "04d",
+                "desc": "overcast clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 100,
+                "time": "03:00:00"
+            },
+            "id": "time_985047893"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-23 06:00:00",
+                "temperature": 27.2,
+                "humidity": 42,
+                "tempMin": 27.2,
+                "tempMax": 27.2,
+                "windSpeed": 3.4,
+                "icon": "04d",
+                "desc": "overcast clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 95,
+                "time": "06:00:00"
+            },
+            "id": "time_-1528942955"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-23 09:00:00",
+                "temperature": 28,
+                "humidity": 38,
+                "tempMin": 28,
+                "tempMax": 28,
+                "windSpeed": 4.9,
+                "icon": "03d",
+                "desc": "scattered clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 27,
+                "time": "09:00:00"
+            },
+            "id": "time_888615910"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-23 12:00:00",
+                "temperature": 24.9,
+                "humidity": 49,
+                "tempMin": 24.9,
+                "tempMax": 24.9,
+                "windSpeed": 3.1,
+                "icon": "04d",
+                "desc": "broken clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 57,
+                "time": "12:00:00"
+            },
+            "id": "time_-1726365886"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-23 15:00:00",
+                "temperature": 21.8,
+                "humidity": 47,
+                "tempMin": 21.8,
+                "tempMax": 21.8,
+                "windSpeed": 2.9,
+                "icon": "04n",
+                "desc": "broken clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 75,
+                "time": "15:00:00"
+            },
+            "id": "time_1791101628"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-23 18:00:00",
+                "temperature": 20.9,
+                "humidity": 43,
+                "tempMin": 20.9,
+                "tempMax": 20.9,
+                "windSpeed": 2.7,
+                "icon": "04n",
+                "desc": "overcast clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 88,
+                "time": "18:00:00"
+            },
+            "id": "time_-2082124243"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-23 21:00:00",
+                "temperature": 19.6,
+                "humidity": 44,
+                "tempMin": 19.6,
+                "tempMax": 19.6,
+                "windSpeed": 1.6,
+                "icon": "04n",
+                "desc": "overcast clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 100,
+                "time": "21:00:00"
+            },
+            "id": "time_673515485"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-24 00:00:00",
+                "temperature": 17.8,
+                "humidity": 51,
+                "tempMin": 17.8,
+                "tempMax": 17.8,
+                "windSpeed": 1.1,
+                "icon": "04n",
+                "desc": "overcast clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 93,
+                "time": "00:00:00"
+            },
+            "id": "time_-1447239516"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-24 03:00:00",
+                "temperature": 22,
+                "humidity": 45,
+                "tempMin": 22,
+                "tempMax": 22,
+                "windSpeed": 1.4,
+                "icon": "04d",
+                "desc": "broken clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 81,
+                "time": "03:00:00"
+            },
+            "id": "time_-1007898991"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-24 06:00:00",
+                "temperature": 26.4,
+                "humidity": 36,
+                "tempMin": 26.4,
+                "tempMax": 26.4,
+                "windSpeed": 2.6,
+                "icon": "04d",
+                "desc": "broken clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 76,
+                "time": "06:00:00"
+            },
+            "id": "time_-1942063388"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-24 09:00:00",
+                "temperature": 27.7,
+                "humidity": 33,
+                "tempMin": 27.7,
+                "tempMax": 27.7,
+                "windSpeed": 3.9,
+                "icon": "04d",
+                "desc": "broken clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 51,
+                "time": "09:00:00"
+            },
+            "id": "time_1415388028"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-24 12:00:00",
+                "temperature": 24.5,
+                "humidity": 44,
+                "tempMin": 24.5,
+                "tempMax": 24.5,
+                "windSpeed": 2,
+                "icon": "04d",
+                "desc": "broken clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 56,
+                "time": "12:00:00"
+            },
+            "id": "time_-1172074202"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-24 15:00:00",
+                "temperature": 21.3,
+                "humidity": 44,
+                "tempMin": 21.3,
+                "tempMax": 21.3,
+                "windSpeed": 2.5,
+                "icon": "04n",
+                "desc": "overcast clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 85,
+                "time": "15:00:00"
+            },
+            "id": "time_-177340458"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-24 18:00:00",
+                "temperature": 20.1,
+                "humidity": 47,
+                "tempMin": 20.1,
+                "tempMax": 20.1,
+                "windSpeed": 2.5,
+                "icon": "04n",
+                "desc": "overcast clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 92,
+                "time": "18:00:00"
+            },
+            "id": "time_244067900"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-24 21:00:00",
+                "temperature": 19,
+                "humidity": 50,
+                "tempMin": 19,
+                "tempMax": 19,
+                "windSpeed": 1.7,
+                "icon": "04n",
+                "desc": "overcast clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 100,
+                "time": "21:00:00"
+            },
+            "id": "time_388213514"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-25 00:00:00",
+                "temperature": 17.8,
+                "humidity": 54,
+                "tempMin": 17.8,
+                "tempMax": 17.8,
+                "windSpeed": 1.7,
+                "icon": "04n",
+                "desc": "overcast clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 100,
+                "time": "00:00:00"
+            },
+            "id": "time_304482364"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-25 03:00:00",
+                "temperature": 21.9,
+                "humidity": 47,
+                "tempMin": 21.9,
+                "tempMax": 21.9,
+                "windSpeed": 1.5,
+                "icon": "04d",
+                "desc": "overcast clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 100,
+                "time": "03:00:00"
+            },
+            "id": "time_787932581"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-25 06:00:00",
+                "temperature": 26.8,
+                "humidity": 32,
+                "tempMin": 26.8,
+                "tempMax": 26.8,
+                "windSpeed": 2.7,
+                "icon": "04d",
+                "desc": "broken clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 77,
+                "time": "06:00:00"
+            },
+            "id": "time_-1025442667"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-25 09:00:00",
+                "temperature": 28.2,
+                "humidity": 29,
+                "tempMin": 28.2,
+                "tempMax": 28.2,
+                "windSpeed": 2.9,
+                "icon": "02d",
+                "desc": "few clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 18,
+                "time": "09:00:00"
+            },
+            "id": "time_570111710"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-25 12:00:00",
+                "temperature": 24.5,
+                "humidity": 43,
+                "tempMin": 24.5,
+                "tempMax": 24.5,
+                "windSpeed": 2.5,
+                "icon": "04d",
+                "desc": "broken clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 53,
+                "time": "12:00:00"
+            },
+            "id": "time_-1564065609"
+        },
+        {
+            "currentWeather": {
+                "timeStamp": "2023-10-25 15:00:00",
+                "temperature": 21.2,
+                "humidity": 45,
+                "tempMin": 21.2,
+                "tempMax": 21.2,
+                "windSpeed": 2.8,
+                "icon": "04n",
+                "desc": "overcast clouds",
+                "message": "Perfect for a cozy day indoors or enjoy the refreshing walk outside",
+                "clouds": 91,
+                "time": "15:00:00"
+            },
+            "id": "time_-1840712176"
+        }
+    ],
+    "city": {
+        "id": 1277333,
+        "name": "Bengaluru",
+        "country": "IN"
+    }
+}

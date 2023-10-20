@@ -12,15 +12,17 @@ import { FormsModule } from '@angular/forms';
 import { DayWiseWeatherCardComponent } from './day-wise-weather-card-container/day-wise-weather-card-container.component';
 import { CommonModule } from '@angular/common';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { ToastrModule } from 'ngx-toastr';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
-  declarations: [	
+  declarations: [
     AppComponent,
     CurrentDateWeatherCardComponent,
     WeeklyDataCardComponent,
     HourlyDataCardComponent,
-      DayWiseWeatherCardComponent
-   ],
+    DayWiseWeatherCardComponent
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -28,6 +30,8 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     HttpClientModule,
     FormsModule,
     CommonModule,
+    BrowserAnimationsModule,
+    ToastrModule.forRoot(),
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: !isDevMode(),
       // Register the ServiceWorker as soon as the application is stable
