@@ -18,10 +18,7 @@
     "@angular/platform-browser": "^16.2.0",
     "@angular/platform-browser-dynamic": "^16.2.0",
     "@angular/router": "^16.2.0",
-<<<<<<< HEAD
-=======
     "@angular/service-worker": "^16.2.0",
->>>>>>> 96f5c07 (Front end support for weather application)
     "@fortawesome/angular-fontawesome": "^0.13.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
@@ -35,10 +32,7 @@
     "@angular/cli": "^16.2.6",
     "@angular/compiler-cli": "^16.2.0",
     "@types/jasmine": "~4.3.0",
-<<<<<<< HEAD
-=======
     "http-server": "^14.1.1",
->>>>>>> 96f5c07 (Front end support for weather application)
     "jasmine-core": "~4.6.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
