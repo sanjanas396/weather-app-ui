@@ -32,3 +32,7 @@ Run below commands :
 `ng build` to build the project
 `npm install --save-dev http-server` to install http-server locally
 `npx http-server -p 8081 -c-1 dist/weather-app` to run http-server with service worker in 8081 port. 
+
+## UI Screenshot
+<img width="740" alt="image" src="https://github.com/sanjanas396/weather-app-ui/assets/84563604/167e0921-3dcf-4e55-a1b5-2254789a20bc">
+
